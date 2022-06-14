@@ -1,8 +1,11 @@
 1. Create a .pro file
 
-2. have a .sh file (shell script) has SBATCH and the module load
+2. have a .sh file (shell script). This is the file we will run. It should 
+have SBATCH and any  module loads that are necessary
 
-3. sbacth shell script which will run the .pro script which is specified inside
+3. run
+ sbatch some_script.sh
+ which will run the .pro script which should be specified inside
  the .sh script
 
 4. Receive a slurm file after the file has run
