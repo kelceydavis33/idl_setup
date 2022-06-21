@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J idl_hello
+#SBATCH -J idl_test
 #SBATCH --mem=10G
 #SBATCH -t 00:05:00
 #SBATCH -n 2
@@ -16,7 +16,7 @@ module load opengl/mesa-12.0.6
 module load gcc
 module load idl
 shopt -s expand_aliases; source $IDL/envi53/bin/envi_setup.bash
-idl /users/kdavis43/idl_setup/testrun.pro
-
-
-
+#idl /users/kdavis43/idl_setup/testrun.pro
+#idl  -e testrun.pro
+#idl -IDL_DEVICE ps -e testrun
+idl -e testrun

@@ -1,4 +1,5 @@
-a='Hello'
-b='World'
-print,a
-print,b
+PRO IDL_HELLO_WORLD
+
+PRINT,("Hello World")
+
+END

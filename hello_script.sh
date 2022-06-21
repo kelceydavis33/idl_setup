@@ -11,4 +11,4 @@
 #SBATCH --mail-user=kelcey_davis@brown.edu
 module load idl
 shopt -s expand_aliases; source $IDL/envi53/bin/envi_setup.bash
-idl /users/kdavis43/IDL/hello_world.pro
+idl -e hello_world

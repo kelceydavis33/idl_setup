@@ -1,1 +1,4 @@
-print,cgHasImageMagick()
+PRO testrun
+
+PRINT, ("HELLO WORLD")
+END
