@@ -6,4 +6,4 @@ This tutorial is for a Linux environment. You can access a linux environment on 
 
 ## Logging In
 
-The first step is of course to login. 
+You cna login to oscar via ssh through your Brown username and password. simply use the same credentials that you log on to other Brown websites with.
